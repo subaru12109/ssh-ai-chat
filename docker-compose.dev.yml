@@ -1,0 +1,46 @@
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: ssh-ai-chat-pwd
+      POSTGRES_USER: postgres
+      POSTGRES_DB: ssh-ai-chat
+    ports:
+      - '25432:5432'
+    volumes:
+      - ./data/pg:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U postgres]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  kv:
+    image: redis:8-alpine
+    restart: unless-stopped
+    command: redis-server --requirepass ssh-ai-chat-pwd
+    ports:
+      - '26379:6379'
+    volumes:
+      - ./data/kv:/data
+    healthcheck:
+      test: [CMD-SHELL, redis-cli ping]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  ssh-ai-chat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 22222:2222
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    mem_limit: 1g
+    depends_on:
+      db:
+        condition: service_healthy
+      kv:
+        condition: service_healthy

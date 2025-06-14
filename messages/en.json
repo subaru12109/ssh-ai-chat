@@ -1,0 +1,28 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "chat": {
+    "thinking": "Thinking...",
+    "tips": "Use `ESC` to enter idle mode\npress `n` to start a new chat, press `i` to enter input mode\npress number key to select model",
+    "source": "Source Code",
+    "sponsor": "Sponsor",
+    "newConversation": "New Conversation",
+    "error": "\nRequest failed, please try again"
+  },
+  "goodbye": "Thank you for using SSH AI Chat, if you find it interesting, please give us a star on {GitHub}({github})\nor follow us on {Twitter}({twitter}).",
+  "model": {
+    "select": "Select Model"
+  },
+  "message": {
+    "input": "Please help me..."
+  },
+  "footer": {
+    "followUs": "Follow Us",
+    "sponsors": "Sponsors",
+    "tip": "Tip",
+    "tips": "Chat(/) Language(\\) Help(?) Exit(Ctrl+C)",
+    "shortcuts": "Shortcuts"
+  },
+  "history": {
+    "title": "History"
+  }
+}

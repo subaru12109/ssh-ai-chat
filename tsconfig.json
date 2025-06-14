@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "jsx": "react-jsx",
+    "moduleDetection": "force",
+    "rootDir": ".",
+    "module": "Preserve",
+    "paths": {
+      "@/ai/*": ["./src/ai/*"],
+      "@/ai": ["./src/ai/index.ts"],
+      "@/i18n/*": ["./i18n/*"],
+      "@/types/*": ["./types/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/config/*": ["./src/config/*"],
+      "@/config": ["./src/config/index.ts"],
+      "@/context/*": ["./src/context/*"],
+      "@/db/*": ["./src/db/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/kv": ["./src/kv/index.ts"],
+      "@/utils/*": ["./src/utils/*"]
+    },
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*",
+    "i18n/**/*"
+  ]
+}

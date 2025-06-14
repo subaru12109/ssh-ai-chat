@@ -1,0 +1,10 @@
+services:
+  ssh-ai-chat:
+    image: ghcr.io/ccbikai/ssh-ai-chat:master
+    ports:
+      - 22:2222
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    mem_limit: 1g
