@@ -15,6 +15,8 @@ English | [简体中文](./README.zh-CN.md)
 ssh username@chat.aigc.ing
 ```
 
+https://github.com/user-attachments/assets/e676ba1b-b2ea-4568-ab5c-f7ba6c79d790
+
 ### Supported Terminals
 
 - macOS: **[iTerm2](https://iterm2.com/)**, [Ghostty](https://ghostty.org/)
