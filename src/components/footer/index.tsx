@@ -36,7 +36,7 @@ export default memo(() => {
               <Text>
                 {' '}
                 {m['footer.sponsors'](null, { locale })}
-                {': '}
+                :
               </Text>
               <Text color="blue">
                 {

@@ -137,7 +137,7 @@ export function useChat() {
       cancelChatRef.current = new AbortController()
       const { textStream } = streamText({
         abortSignal: cancelChatRef.current.signal,
-        system: generateChatPrompt(locale),
+        system: generateChatPrompt(locale, model.name),
         messages: [...messages, userMessage],
         model: thinkingModel.includes(model.name)
           ? wrapLanguageModel({
